@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>luv calculator</title>
+</head>
+<body>
+    <div class="calculator">
+        <div class="yourname">
+            <label for="">Your Name</label> <br>
+            <input type="text" placeholder="your name">
+        </div>
+        <h1 class="heart"> 
+            <p id="answer"></p>
+            <i class="heart"></i>
+        </h1>
+
+        <div class="partnername">
+            <label for=""> Partner Name</label> <br>
+            <input type="text" placeholder="partner name">
+        </div>
+        <input type="submit" value="calculate" id="cal" onclick="percentage(50,101)" >
+    </div>
+    <script>
+        function percentage(min,max){
+            document.getElementById("answer").innerText=Math.floor(Math.random() * (max-min)+min) + "%";
+        }
+    </script>
+    
+</body>
+</html>

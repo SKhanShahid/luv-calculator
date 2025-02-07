@@ -1,0 +1,84 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.calculator{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    width: 70%;
+    height: 50%;
+    box-sizing: border-box;
+}
+input{ 
+    padding:10px;
+    margin: 0;
+    font-size: 25px;
+    border-radius: 15px;
+    border:1px solid white;
+    background-image: linear-gradient(90deg,white,pink);
+    outline:none;
+    box-shadow: 2px 4px 5px black;
+    text-align: center;
+    color: azure;
+    text-shadow: 1px 2px 10 red, 1px 2px 4px black;
+} 
+input::placeholder{
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    text-shadow: 2px 4px 5px black;
+}
+label{
+    font-size: 30px;
+    position:relative;
+    letter-spacing: 6px;
+    font-family: piqeu;
+   
+}
+.heart {
+    position: absolute;
+    color: red;
+    font-size: 150px;
+    margin: 0%;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+#cal{
+    position: absolute;
+    top: 90%;
+    width: 25%;
+    font: size 20px; 
+    text-transform: uppercase;
+    width: 40%;
+    text-shadow: 2px 3px 5px black;
+
+}
+#answer{
+    position: absolute;
+    font-size: 50px;
+    color:red;
+    left: 50%;
+    transform: translate(-50%);
+}
+  
+   
+
+
+
+
+
+
+
+
+
